@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-
+# Name: 黃冠華
+# Student ID: F74001242
+# Description: it can find average prie
+#              of specific district, road & year
 import sys
 import urllib2
 import json
