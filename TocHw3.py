@@ -27,6 +27,9 @@ for i in range(len(text)):
             if text[i][u"交易年月"] > year :
                 total += text[i][u"總價元"]
                 item += 1
-
-avg_price = total / item
+if item != 0:
+	avg_price = total / item
+else:
+	avg_price = 0
+	
 print int(avg_price)
