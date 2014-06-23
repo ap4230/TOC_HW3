@@ -10,7 +10,7 @@ import json
 total = 0
 item = 0
 
-if len(sys.argv) < 5:
+if len(sys.argv) != 5:
     print "Error in argument."
     sys.exit(0)
 
