@@ -10,6 +10,10 @@ import json
 total = 0
 item = 0
 
+if len(sys.argv) < 5:
+    print "Error in argument."
+    sys.exit(0)
+
 district = unicode(sys.argv[2], 'utf-8')
 road = unicode(sys.argv[3], 'utf-8')
 year = int(sys.argv[4]) * 100
